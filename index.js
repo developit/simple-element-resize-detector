@@ -5,7 +5,7 @@ export default (element, handler) => {
 	frame.style.cssText = CSS;
 	element.appendChild(frame);
 	frame.contentWindow.onresize = () => {
-		handler.call(element);
+		handler(element);
 	};
 	return frame;
 }
