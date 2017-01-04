@@ -4,6 +4,6 @@ export default (element, handler) => {
 	let frame = document.createElement('iframe');
 	frame.style.cssText = CSS;
 	element.appendChild(frame);
-	frame.contentWindow.onresize = () => { handler(); };
+	frame.contentWindow.onresize = () => { handler(element); };
 	return frame;
 }
