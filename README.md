@@ -43,7 +43,7 @@ detector.remove();
 ## Notes
 
 * `element` passed to `observeResize()` must have `position: relative` style to be correctly observed, otherwise nearest relative ancestor will be observed instead.
-* This library uses `<iframe>`s to observe element resizes. `<iframe>`s are heavy objects are usually take good amount of memory. Be careful and don't abuse it.
+* This library uses `<iframe>`s to detect when an element resizes. `<iframe>`s are heavy objects are usually take good amount of memory. Be careful and don't abuse it.
 
 ## License
 
