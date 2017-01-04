@@ -1,7 +1,9 @@
-# simple-element-resize-detector
+# simple-element-resize-detector [![NPM](https://img.shields.io/npm/v/simple-element-resize-detector.svg?style=flat)](https://www.npmjs.org/package/simple-element-resize-detector)
+
 
 Observes resizing of an element using a hidden iframe.
 
+[**JSFiddle Demo**](https://jsfiddle.net/developit/62Lgh3wz/)
 
 ## Installation
 
