@@ -1,7 +1,7 @@
 {
   "name": "simple-element-resize-detector",
   "amdName": "simpleElementResizeDetector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Observes resizing of an element using a hidden iframe.",
   "main": "dist/simple-element-resize-detector.js",
   "jsnext:main": "index.js",
