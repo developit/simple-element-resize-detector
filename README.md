@@ -1,5 +1,7 @@
 # simple-element-resize-detector [![NPM](https://img.shields.io/npm/v/simple-element-resize-detector.svg?style=flat)](https://www.npmjs.org/package/simple-element-resize-detector)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/developit/simple-element-resize-detector.svg)](https://greenkeeper.io/)
+
 
 Observes resizing of an element using a hidden iframe.
 
