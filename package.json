@@ -1,7 +1,7 @@
 {
   "name": "simple-element-resize-detector",
   "amdName": "simpleElementResizeDetector",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Observes resizing of an element using a hidden iframe.",
   "main": "dist/simple-element-resize-detector.js",
   "umd:main": "dist/simple-element-resize-detector.js",
