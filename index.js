@@ -5,7 +5,11 @@ export default (element, handler) => {
 	let supportsPE = document.documentMode < 11 ? false : 'pointerEvents' in frame.style;
 
 	frame.style.cssText = supportsPE ? CSS : CSS + 'visibility:hidden;';
+	frame.onload = () => {
+		frame.contentWindow.onresize = () => {
+			handler(element);
+		};
+	};
 	element.appendChild(frame);
-	frame.contentWindow.onresize = () => { handler(element); };
 	return frame;
 }
