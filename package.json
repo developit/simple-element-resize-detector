@@ -5,7 +5,7 @@
   "description": "Observes resizing of an element using a hidden iframe.",
   "main": "dist/simple-element-resize-detector.js",
   "umd:main": "dist/simple-element-resize-detector.js",
-  "module": "dist/simple-element-resize-detector.mjs",
+  "module": "dist/simple-element-resize-detector.module.js",
   "source": "index.js",
   "scripts": {
     "build": "microbundle -f es,umd",
